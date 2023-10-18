@@ -7,7 +7,7 @@ import { Platform } from "react-native";
 
 let posts = require("./temp_post.json")
 
-export default class CreateStory extends React.Component{
+export default class HomeScreen extends React.Component{
 
 renderItem = ({item:post}) => {
   return <PostCard post={post}/>;
